@@ -42,7 +42,7 @@ export function Home() {
           <h1>Lista de presença</h1>
           <div>
             <strong>{user.name}</strong>
-            <img src={user.avatar} alt={"Foto do usuário " + user.name} />
+            <img src={user.avatar} alt={"Foto do usuário " + user.name} title={"Foto do " + user.name}/>
           </div>
         </header>
 
